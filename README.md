@@ -5,6 +5,8 @@ EggAsync는 언리얼 엔진 5.8용 블루프린트 비동기 액션 플러그�
 
 [UE5 Simple Easing Function](https://github.com/Youllee/UE5_Simple_Easing_Function)의 기능이 이 플러그인에 통합되었습니다.
 
+> **호환성:** [v5.8.0 릴리즈](https://github.com/Youllee/UE5_EggAsyncAction/releases/tag/5.8.0)는 언리얼 엔진 5.8용입니다. 5.7 이하 버전에서는 동작을 보장하지 않습니다.
+
 ## 요구 사항
 
 - 언리얼 엔진 5.8
@@ -12,9 +14,10 @@ EggAsync는 언리얼 엔진 5.8용 블루프린트 비동기 액션 플러그�
 
 ## 설치
 
-1. 이 저장소의 파일을 `<프로젝트>/Plugins/EggAsync/`에 복사합니다.
-2. 프로젝트를 빌드한 뒤 에디터를 실행합니다.
-3. 에디터의 **플러그인 > ProjectEgg**에서 **Egg Async**를 활성화합니다.
+1. [EggAsync v5.8.0 ZIP](https://github.com/Youllee/UE5_EggAsyncAction/releases/download/5.8.0/EggAsync_v5.8.0.zip)을 내려받습니다. 저장소의 소스를 직접 사용해도 됩니다.
+2. ZIP을 `<프로젝트>/Plugins/EggAsync/`에 풀거나 저장소 파일을 같은 경로에 복사합니다. `EggAsync.uplugin`이 이 폴더 바로 아래에 있어야 합니다.
+3. 프로젝트를 빌드한 뒤 에디터를 실행합니다. 릴리즈 ZIP에는 소스가 포함되어 있으며 미리 빌드된 바이너리는 없습니다.
+4. 에디터의 **플러그인 > ProjectEgg**에서 **Egg Async**를 활성화합니다.
 
 ## 기능
 
